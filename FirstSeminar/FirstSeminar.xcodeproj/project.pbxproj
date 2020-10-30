@@ -19,6 +19,8 @@
 		0E00878225319744004689C7 /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00878125319744004689C7 /* GreenVC.swift */; };
 		0E00878725319C44004689C7 /* ExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00878625319C44004689C7 /* ExampleVC.swift */; };
 		0E00878C25319C53004689C7 /* ExampleSenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00878B25319C53004689C7 /* ExampleSenderVC.swift */; };
+		0E610B68254C07D800EDCD91 /* SecondAssignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E610B67254C07D800EDCD91 /* SecondAssignment.storyboard */; };
+		0E610B6D254C080F00EDCD91 /* ScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E610B6C254C080F00EDCD91 /* ScrollVC.swift */; };
 		0EECA36C25381768004B0D9A /* FisrtAssignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EECA36B25381768004B0D9A /* FisrtAssignment.storyboard */; };
 		0EECA371253817A4004B0D9A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECA370253817A4004B0D9A /* HomeVC.swift */; };
 		0EECA37E253817CE004B0D9A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECA37D253817CE004B0D9A /* LoginVC.swift */; };
@@ -62,6 +64,8 @@
 		0E00878125319744004689C7 /* GreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
 		0E00878625319C44004689C7 /* ExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleVC.swift; sourceTree = "<group>"; };
 		0E00878B25319C53004689C7 /* ExampleSenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSenderVC.swift; sourceTree = "<group>"; };
+		0E610B67254C07D800EDCD91 /* SecondAssignment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondAssignment.storyboard; sourceTree = "<group>"; };
+		0E610B6C254C080F00EDCD91 /* ScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollVC.swift; sourceTree = "<group>"; };
 		0EECA36B25381768004B0D9A /* FisrtAssignment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FisrtAssignment.storyboard; sourceTree = "<group>"; };
 		0EECA370253817A4004B0D9A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = FirstSeminar/FirstAssignment/Sources/HomeVC.swift; sourceTree = SOURCE_ROOT; };
 		0EECA37D253817CE004B0D9A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				0E008748253186F9004689C7 /* FirstSeminar */,
+				0E610B64254C079E00EDCD91 /* SecondAssignment */,
 				0E00875F253186FB004689C7 /* FirstSeminarTests */,
 				0E00876A253186FB004689C7 /* FirstSeminarUITests */,
 				0E008747253186F9004689C7 /* Products */,
@@ -144,6 +149,31 @@
 				0E00876D253186FB004689C7 /* Info.plist */,
 			);
 			path = FirstSeminarUITests;
+			sourceTree = "<group>";
+		};
+		0E610B64254C079E00EDCD91 /* SecondAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				0E610B65254C07AB00EDCD91 /* Sources */,
+				0E610B66254C07B200EDCD91 /* ReSources */,
+			);
+			path = SecondAssignment;
+			sourceTree = "<group>";
+		};
+		0E610B65254C07AB00EDCD91 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0E610B67254C07D800EDCD91 /* SecondAssignment.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0E610B66254C07B200EDCD91 /* ReSources */ = {
+			isa = PBXGroup;
+			children = (
+				0E610B6C254C080F00EDCD91 /* ScrollVC.swift */,
+			);
+			path = ReSources;
 			sourceTree = "<group>";
 		};
 		0EECA3652538168D004B0D9A /* Seminar */ = {
@@ -307,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E008756253186FB004689C7 /* LaunchScreen.storyboard in Resources */,
+				0E610B68254C07D800EDCD91 /* SecondAssignment.storyboard in Resources */,
 				0E008753253186FB004689C7 /* Assets.xcassets in Resources */,
 				0EECA36C25381768004B0D9A /* FisrtAssignment.storyboard in Resources */,
 				0E008751253186F9004689C7 /* Main.storyboard in Resources */,
@@ -335,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E00878225319744004689C7 /* GreenVC.swift in Sources */,
+				0E610B6D254C080F00EDCD91 /* ScrollVC.swift in Sources */,
 				0EECA371253817A4004B0D9A /* HomeVC.swift in Sources */,
 				0E00874E253186F9004689C7 /* ViewController.swift in Sources */,
 				0E00878C25319C53004689C7 /* ExampleSenderVC.swift in Sources */,
