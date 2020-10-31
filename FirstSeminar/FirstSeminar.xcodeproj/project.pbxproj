@@ -21,6 +21,9 @@
 		0E00878C25319C53004689C7 /* ExampleSenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00878B25319C53004689C7 /* ExampleSenderVC.swift */; };
 		0E610B68254C07D800EDCD91 /* SecondAssignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E610B67254C07D800EDCD91 /* SecondAssignment.storyboard */; };
 		0E610B6D254C080F00EDCD91 /* ScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E610B6C254C080F00EDCD91 /* ScrollVC.swift */; };
+		0E610B80254D34CB00EDCD91 /* ThirdSeminarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E610B7F254D34CB00EDCD91 /* ThirdSeminarVC.swift */; };
+		0E610B85254D34F200EDCD91 /* ThirdSeminarStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E610B84254D34F200EDCD91 /* ThirdSeminarStory.storyboard */; };
+		0E610B8D254D4AF000EDCD91 /* tableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E610B8C254D4AF000EDCD91 /* tableVC.swift */; };
 		0EECA36C25381768004B0D9A /* FisrtAssignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EECA36B25381768004B0D9A /* FisrtAssignment.storyboard */; };
 		0EECA371253817A4004B0D9A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECA370253817A4004B0D9A /* HomeVC.swift */; };
 		0EECA37E253817CE004B0D9A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECA37D253817CE004B0D9A /* LoginVC.swift */; };
@@ -66,6 +69,9 @@
 		0E00878B25319C53004689C7 /* ExampleSenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSenderVC.swift; sourceTree = "<group>"; };
 		0E610B67254C07D800EDCD91 /* SecondAssignment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondAssignment.storyboard; sourceTree = "<group>"; };
 		0E610B6C254C080F00EDCD91 /* ScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollVC.swift; sourceTree = "<group>"; };
+		0E610B7F254D34CB00EDCD91 /* ThirdSeminarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThirdSeminarVC.swift; path = ../../../../../../Documents/ThirdSeminarVC.swift; sourceTree = "<group>"; };
+		0E610B84254D34F200EDCD91 /* ThirdSeminarStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ThirdSeminarStory.storyboard; path = ../../../../../../Documents/ThirdSeminarStory.storyboard; sourceTree = "<group>"; };
+		0E610B8C254D4AF000EDCD91 /* tableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableVC.swift; sourceTree = "<group>"; };
 		0EECA36B25381768004B0D9A /* FisrtAssignment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FisrtAssignment.storyboard; sourceTree = "<group>"; };
 		0EECA370253817A4004B0D9A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = FirstSeminar/FirstAssignment/Sources/HomeVC.swift; sourceTree = SOURCE_ROOT; };
 		0EECA37D253817CE004B0D9A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -103,6 +109,7 @@
 			children = (
 				0E008748253186F9004689C7 /* FirstSeminar */,
 				0E610B64254C079E00EDCD91 /* SecondAssignment */,
+				0E610B71254D33DF00EDCD91 /* Third */,
 				0E00875F253186FB004689C7 /* FirstSeminarTests */,
 				0E00876A253186FB004689C7 /* FirstSeminarUITests */,
 				0E008747253186F9004689C7 /* Products */,
@@ -174,6 +181,33 @@
 				0E610B6C254C080F00EDCD91 /* ScrollVC.swift */,
 			);
 			path = ReSources;
+			sourceTree = "<group>";
+		};
+		0E610B71254D33DF00EDCD91 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				0E610B73254D340100EDCD91 /* Seminar */,
+				0E610B72254D33FB00EDCD91 /* Assignment */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		0E610B72254D33FB00EDCD91 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		0E610B73254D340100EDCD91 /* Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				0E610B84254D34F200EDCD91 /* ThirdSeminarStory.storyboard */,
+				0E610B7F254D34CB00EDCD91 /* ThirdSeminarVC.swift */,
+				0E610B8C254D4AF000EDCD91 /* tableVC.swift */,
+			);
+			name = Seminar;
+			path = "New Group/Seminar";
 			sourceTree = "<group>";
 		};
 		0EECA3652538168D004B0D9A /* Seminar */ = {
@@ -336,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E610B85254D34F200EDCD91 /* ThirdSeminarStory.storyboard in Resources */,
 				0E008756253186FB004689C7 /* LaunchScreen.storyboard in Resources */,
 				0E610B68254C07D800EDCD91 /* SecondAssignment.storyboard in Resources */,
 				0E008753253186FB004689C7 /* Assets.xcassets in Resources */,
@@ -368,6 +403,7 @@
 				0E00878225319744004689C7 /* GreenVC.swift in Sources */,
 				0E610B6D254C080F00EDCD91 /* ScrollVC.swift in Sources */,
 				0EECA371253817A4004B0D9A /* HomeVC.swift in Sources */,
+				0E610B80254D34CB00EDCD91 /* ThirdSeminarVC.swift in Sources */,
 				0E00874E253186F9004689C7 /* ViewController.swift in Sources */,
 				0E00878C25319C53004689C7 /* ExampleSenderVC.swift in Sources */,
 				0E00874A253186F9004689C7 /* AppDelegate.swift in Sources */,
@@ -377,6 +413,7 @@
 				0E00877D2531910E004689C7 /* SecondVC.swift in Sources */,
 				0EECA383253817EA004B0D9A /* SignUpVC.swift in Sources */,
 				0E00874C253186F9004689C7 /* SceneDelegate.swift in Sources */,
+				0E610B8D254D4AF000EDCD91 /* tableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
