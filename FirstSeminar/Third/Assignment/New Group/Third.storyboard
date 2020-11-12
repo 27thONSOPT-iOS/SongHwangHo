@@ -17,11 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ykx-i1-1zd">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ykx-i1-1zd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="OEr-3x-x3Y">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="OEr-3x-x3Y">
                                     <size key="itemSize" width="128" height="128"/>
+                                    <size key="estimatedItemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="50" height="88"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -29,8 +30,8 @@
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ThirdCell1CVCell" reuseIdentifier="ThirdCell1CVCell" id="GgA-5u-l28" customClass="ThirdCell1CVCell" customModule="FirstSeminar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="88" width="375" height="420"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JjA-6A-hbh">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1p1-Ka-P1n">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="420"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -66,9 +67,7 @@
                                                         <constraint firstItem="fmn-dz-Jtj" firstAttribute="top" secondItem="eCS-7G-vRy" secondAttribute="bottom" id="1s5-Sy-Amq"/>
                                                         <constraint firstItem="SG1-ka-lEb" firstAttribute="leading" secondItem="3Ua-tM-23E" secondAttribute="leading" id="9a3-1F-O48"/>
                                                         <constraint firstItem="fmn-dz-Jtj" firstAttribute="centerX" secondItem="3Ua-tM-23E" secondAttribute="centerX" id="DAM-3b-yhe"/>
-                                                        <constraint firstAttribute="height" constant="420" id="HEq-Bp-rZe"/>
                                                         <constraint firstAttribute="bottom" secondItem="SG1-ka-lEb" secondAttribute="bottom" id="IMw-fC-NLP"/>
-                                                        <constraint firstAttribute="width" constant="375" id="LQP-sf-0RQ"/>
                                                         <constraint firstItem="UMF-Ls-kRW" firstAttribute="top" secondItem="fmn-dz-Jtj" secondAttribute="bottom" id="cJs-cu-4Gg"/>
                                                         <constraint firstItem="SG1-ka-lEb" firstAttribute="top" secondItem="3Ua-tM-23E" secondAttribute="top" id="ffy-Nd-Pvp"/>
                                                         <constraint firstItem="eCS-7G-vRy" firstAttribute="centerX" secondItem="3Ua-tM-23E" secondAttribute="centerX" id="oXa-rT-cha"/>
@@ -78,9 +77,9 @@
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="3Ua-tM-23E" firstAttribute="leading" secondItem="JjA-6A-hbh" secondAttribute="leading" id="6d6-qH-RgK"/>
+                                                <constraint firstItem="3Ua-tM-23E" firstAttribute="leading" secondItem="1p1-Ka-P1n" secondAttribute="leading" id="6d6-qH-RgK"/>
                                                 <constraint firstAttribute="trailing" secondItem="3Ua-tM-23E" secondAttribute="trailing" id="bHa-IW-fH3"/>
-                                                <constraint firstItem="3Ua-tM-23E" firstAttribute="top" secondItem="JjA-6A-hbh" secondAttribute="top" id="iCX-9j-RMY"/>
+                                                <constraint firstItem="3Ua-tM-23E" firstAttribute="top" secondItem="1p1-Ka-P1n" secondAttribute="top" id="iCX-9j-RMY"/>
                                                 <constraint firstAttribute="bottom" secondItem="3Ua-tM-23E" secondAttribute="bottom" id="st3-E0-XmM"/>
                                             </constraints>
                                         </collectionViewCellContentView>
@@ -89,7 +88,7 @@
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ThirdCell2CVCell" reuseIdentifier="ThirdCell2CVCell" id="xwM-M8-z0m" customClass="ThirdCell2CVCell" customModule="FirstSeminar" customModuleProvider="target">
                                         <rect key="frame" x="112.5" y="508" width="150" height="225"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2SG-z2-JHP">
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="IEf-R7-dhx">
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -109,7 +108,7 @@
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="vsb-gY-GxG">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="vsb-gY-GxG">
                                                             <rect key="frame" x="15" y="125.5" width="65" height="4"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="4" id="9bG-9Z-sif"/>
@@ -135,7 +134,6 @@
                                                         <constraint firstItem="Wz6-l6-981" firstAttribute="top" secondItem="E3u-jK-Qgb" secondAttribute="bottom" constant="13" id="3dU-fP-mSS"/>
                                                         <constraint firstItem="qnI-7y-HZL" firstAttribute="leading" secondItem="OoX-PM-KYA" secondAttribute="leading" constant="15" id="8cb-uj-CeQ"/>
                                                         <constraint firstItem="E3u-jK-Qgb" firstAttribute="top" secondItem="OoX-PM-KYA" secondAttribute="top" id="QPu-a6-RxD"/>
-                                                        <constraint firstAttribute="width" constant="150" id="SOq-4j-3hD"/>
                                                         <constraint firstItem="E3u-jK-Qgb" firstAttribute="leading" secondItem="OoX-PM-KYA" secondAttribute="leading" id="Wgk-3U-JLh"/>
                                                         <constraint firstItem="uW9-Lr-MzR" firstAttribute="leading" secondItem="Wz6-l6-981" secondAttribute="leading" id="c5e-TE-Uvi"/>
                                                         <constraint firstItem="uW9-Lr-MzR" firstAttribute="top" secondItem="Wz6-l6-981" secondAttribute="bottom" constant="5" id="cGF-j8-PcB"/>
@@ -143,15 +141,14 @@
                                                         <constraint firstItem="vsb-gY-GxG" firstAttribute="top" secondItem="qnI-7y-HZL" secondAttribute="bottom" id="nkx-1F-Xhf"/>
                                                         <constraint firstAttribute="trailing" secondItem="E3u-jK-Qgb" secondAttribute="trailing" id="r4T-u1-qfh"/>
                                                         <constraint firstItem="vsb-gY-GxG" firstAttribute="leading" secondItem="qnI-7y-HZL" secondAttribute="leading" id="sM8-jq-MRd"/>
-                                                        <constraint firstAttribute="height" constant="225" id="tJU-kt-kuC"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="leading" secondItem="2SG-z2-JHP" secondAttribute="leading" id="52s-6o-EbI"/>
+                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="leading" secondItem="IEf-R7-dhx" secondAttribute="leading" id="52s-6o-EbI"/>
                                                 <constraint firstAttribute="trailing" secondItem="OoX-PM-KYA" secondAttribute="trailing" id="6oY-a4-GDX"/>
                                                 <constraint firstAttribute="bottom" secondItem="OoX-PM-KYA" secondAttribute="bottom" id="GN5-9z-Wna"/>
-                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="top" secondItem="2SG-z2-JHP" secondAttribute="top" id="ILg-H7-arU"/>
+                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="top" secondItem="IEf-R7-dhx" secondAttribute="top" id="ILg-H7-arU"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="150" height="225"/>
@@ -232,15 +229,30 @@
             </objects>
             <point key="canvasLocation" x="578.39999999999998" y="-127.28635682158921"/>
         </scene>
+        <!--aaaVC-->
+        <scene sceneID="yNB-j6-MYL">
+            <objects>
+                <viewController storyboardIdentifier="aaaVC" title="aaaVC" id="M3p-zT-8c3" customClass="aaaVC" customModule="FirstSeminar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zxs-xT-UZi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="PxE-C5-jVT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hnn-jm-2yM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="-127"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="3" width="65" height="4"/>
         <image name="4" width="264" height="3"/>
         <image name="6" width="375" height="88"/>
         <image name="banner" width="375" height="420"/>
         <image name="juhyeok" width="150" height="150"/>
         <image name="profileBtn" width="132" height="32"/>
         <image name="soptLogo" width="62" height="23"/>
-        <image name="yellowbar" width="65" height="4"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

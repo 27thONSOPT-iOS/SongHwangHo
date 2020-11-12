@@ -28,6 +28,7 @@
 		0EA9055F25567CAB00F35F51 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA9055E25567CAB00F35F51 /* Storyboard.storyboard */; };
 		0EA905652556823A00F35F51 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA905642556823A00F35F51 /* Third.storyboard */; };
 		0EA9056A2556825B00F35F51 /* ThirdAssignmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA905692556825B00F35F51 /* ThirdAssignmentVC.swift */; };
+		0EA9059B255D7B5700F35F51 /* aaaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9059A255D7B5700F35F51 /* aaaVC.swift */; };
 		0EBB2009255643D000DA7BFA /* Fourth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBB2008255643D000DA7BFA /* Fourth.storyboard */; };
 		0EBB200E2556485900DA7BFA /* customTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB200D2556485900DA7BFA /* customTBC.swift */; };
 		0EBB20132556488C00DA7BFA /* purpleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB20122556488C00DA7BFA /* purpleVC.swift */; };
@@ -86,6 +87,7 @@
 		0EA9055E25567CAB00F35F51 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		0EA905642556823A00F35F51 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		0EA905692556825B00F35F51 /* ThirdAssignmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAssignmentVC.swift; sourceTree = "<group>"; };
+		0EA9059A255D7B5700F35F51 /* aaaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaVC.swift; sourceTree = "<group>"; };
 		0EBB2008255643D000DA7BFA /* Fourth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fourth.storyboard; sourceTree = "<group>"; };
 		0EBB200D2556485900DA7BFA /* customTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTBC.swift; sourceTree = "<group>"; };
 		0EBB20122556488C00DA7BFA /* purpleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purpleVC.swift; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 		0EA9056325567FC400F35F51 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				0EA9059A255D7B5700F35F51 /* aaaVC.swift */,
 				0EA905642556823A00F35F51 /* Third.storyboard */,
 				0EA905692556825B00F35F51 /* ThirdAssignmentVC.swift */,
 			);
@@ -617,6 +620,7 @@
 				0E00874A253186F9004689C7 /* AppDelegate.swift in Sources */,
 				0EECA37E253817CE004B0D9A /* LoginVC.swift in Sources */,
 				0EECA38B25385856004B0D9A /* LoginNVC.swift in Sources */,
+				0EA9059B255D7B5700F35F51 /* aaaVC.swift in Sources */,
 				0E00878725319C44004689C7 /* ExampleVC.swift in Sources */,
 				0EBB20132556488C00DA7BFA /* purpleVC.swift in Sources */,
 				0E00877D2531910E004689C7 /* SecondVC.swift in Sources */,
