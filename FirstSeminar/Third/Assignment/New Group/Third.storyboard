@@ -22,7 +22,6 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="OEr-3x-x3Y">
                                     <size key="itemSize" width="128" height="128"/>
-                                    <size key="estimatedItemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="50" height="88"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -86,16 +85,16 @@
                                         <size key="customSize" width="375" height="420"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ThirdCell2CVCell" reuseIdentifier="ThirdCell2CVCell" id="xwM-M8-z0m" customClass="ThirdCell2CVCell" customModule="FirstSeminar" customModuleProvider="target">
-                                        <rect key="frame" x="112.5" y="508" width="150" height="225"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="IEf-R7-dhx">
+                                        <rect key="frame" x="113" y="508" width="150" height="225"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8af-ZY-7sw">
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OoX-PM-KYA">
                                                     <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juhyeok" translatesAutoresizingMaskIntoConstraints="NO" id="E3u-jK-Qgb">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peace" translatesAutoresizingMaskIntoConstraints="NO" id="E3u-jK-Qgb">
                                                             <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="150" id="p74-if-dnY"/>
@@ -115,14 +114,10 @@
                                                                 <constraint firstAttribute="width" constant="65" id="xiy-oN-ggw"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#hereis#아요#내꿈은" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wz6-l6-981">
-                                                            <rect key="frame" x="7" y="163" width="102" height="13.5"/>
-                                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="##사과농장#ENFP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uW9-Lr-MzR">
-                                                            <rect key="frame" x="7" y="181.5" width="88.5" height="13.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wz6-l6-981">
+                                                            <rect key="frame" x="7" y="163" width="102" height="26.5"/>
+                                                            <string key="text">#hereis#아요#내꿈은
+#사과농장#ENFP</string>
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -132,11 +127,11 @@
                                                     <constraints>
                                                         <constraint firstItem="Wz6-l6-981" firstAttribute="leading" secondItem="OoX-PM-KYA" secondAttribute="leading" constant="7" id="3XX-ib-6Qq"/>
                                                         <constraint firstItem="Wz6-l6-981" firstAttribute="top" secondItem="E3u-jK-Qgb" secondAttribute="bottom" constant="13" id="3dU-fP-mSS"/>
+                                                        <constraint firstAttribute="height" constant="225" id="3hM-kJ-vyH"/>
                                                         <constraint firstItem="qnI-7y-HZL" firstAttribute="leading" secondItem="OoX-PM-KYA" secondAttribute="leading" constant="15" id="8cb-uj-CeQ"/>
+                                                        <constraint firstAttribute="width" constant="150" id="Odt-ra-hff"/>
                                                         <constraint firstItem="E3u-jK-Qgb" firstAttribute="top" secondItem="OoX-PM-KYA" secondAttribute="top" id="QPu-a6-RxD"/>
                                                         <constraint firstItem="E3u-jK-Qgb" firstAttribute="leading" secondItem="OoX-PM-KYA" secondAttribute="leading" id="Wgk-3U-JLh"/>
-                                                        <constraint firstItem="uW9-Lr-MzR" firstAttribute="leading" secondItem="Wz6-l6-981" secondAttribute="leading" id="c5e-TE-Uvi"/>
-                                                        <constraint firstItem="uW9-Lr-MzR" firstAttribute="top" secondItem="Wz6-l6-981" secondAttribute="bottom" constant="5" id="cGF-j8-PcB"/>
                                                         <constraint firstItem="qnI-7y-HZL" firstAttribute="top" secondItem="OoX-PM-KYA" secondAttribute="top" constant="111" id="ikV-Uf-0jN"/>
                                                         <constraint firstItem="vsb-gY-GxG" firstAttribute="top" secondItem="qnI-7y-HZL" secondAttribute="bottom" id="nkx-1F-Xhf"/>
                                                         <constraint firstAttribute="trailing" secondItem="E3u-jK-Qgb" secondAttribute="trailing" id="r4T-u1-qfh"/>
@@ -145,13 +140,17 @@
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="leading" secondItem="IEf-R7-dhx" secondAttribute="leading" id="52s-6o-EbI"/>
-                                                <constraint firstAttribute="trailing" secondItem="OoX-PM-KYA" secondAttribute="trailing" id="6oY-a4-GDX"/>
-                                                <constraint firstAttribute="bottom" secondItem="OoX-PM-KYA" secondAttribute="bottom" id="GN5-9z-Wna"/>
-                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="top" secondItem="IEf-R7-dhx" secondAttribute="top" id="ILg-H7-arU"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OoX-PM-KYA" secondAttribute="bottom" id="GN5-9z-Wna"/>
+                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8af-ZY-7sw" secondAttribute="top" id="ILg-H7-arU"/>
+                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="centerX" secondItem="8af-ZY-7sw" secondAttribute="centerX" id="TOK-MO-1da"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="150" height="225"/>
+                                        <connections>
+                                            <outlet property="nameTx" destination="qnI-7y-HZL" id="IY6-qd-t7j"/>
+                                            <outlet property="profile" destination="E3u-jK-Qgb" id="6Rk-6h-fwP"/>
+                                            <outlet property="subtitleTx" destination="Wz6-l6-981" id="xcW-hG-p7r"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="header1CVCell" reuseIdentifier="header1CVCell" id="ngw-6Q-ngj" customClass="header1CVCell" customModule="FirstSeminar" customModuleProvider="target">
@@ -242,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hnn-jm-2yM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1377" y="-127"/>
+            <point key="canvasLocation" x="1463" y="-127"/>
         </scene>
     </scenes>
     <resources>
@@ -250,7 +249,7 @@
         <image name="4" width="264" height="3"/>
         <image name="6" width="375" height="88"/>
         <image name="banner" width="375" height="420"/>
-        <image name="juhyeok" width="150" height="150"/>
+        <image name="peace" width="150" height="150"/>
         <image name="profileBtn" width="132" height="32"/>
         <image name="soptLogo" width="62" height="23"/>
         <systemColor name="systemBackgroundColor">
