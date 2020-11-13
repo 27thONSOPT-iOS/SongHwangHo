@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="srC-Uf-Hti">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="srC-Uf-Hti">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -17,8 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ykx-i1-1zd">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" id="ykx-i1-1zd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="OEr-3x-x3Y">
                                     <size key="itemSize" width="128" height="128"/>
@@ -85,7 +86,7 @@
                                         <size key="customSize" width="375" height="420"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ThirdCell2CVCell" reuseIdentifier="ThirdCell2CVCell" id="xwM-M8-z0m" customClass="ThirdCell2CVCell" customModule="FirstSeminar" customModuleProvider="target">
-                                        <rect key="frame" x="113" y="508" width="150" height="225"/>
+                                        <rect key="frame" x="112.5" y="508" width="150" height="225"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8af-ZY-7sw">
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
@@ -140,9 +141,9 @@
                                                 </view>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="centerX" secondItem="8af-ZY-7sw" secondAttribute="centerX" id="GAi-hp-Fsi"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OoX-PM-KYA" secondAttribute="bottom" id="GN5-9z-Wna"/>
                                                 <constraint firstItem="OoX-PM-KYA" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8af-ZY-7sw" secondAttribute="top" id="ILg-H7-arU"/>
-                                                <constraint firstItem="OoX-PM-KYA" firstAttribute="centerX" secondItem="8af-ZY-7sw" secondAttribute="centerX" id="TOK-MO-1da"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="150" height="225"/>
@@ -227,21 +228,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wtH-Ac-Qpq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="578.39999999999998" y="-127.28635682158921"/>
-        </scene>
-        <!--aaaVC-->
-        <scene sceneID="yNB-j6-MYL">
-            <objects>
-                <viewController storyboardIdentifier="aaaVC" title="aaaVC" id="M3p-zT-8c3" customClass="aaaVC" customModule="FirstSeminar" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zxs-xT-UZi">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="PxE-C5-jVT"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hnn-jm-2yM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1463" y="-127"/>
         </scene>
     </scenes>
     <resources>

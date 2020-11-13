@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ThirdAssignmentVC: UIViewController  {
+class FourthAssignmentCVC: UIViewController  {
 
     @IBOutlet weak var ProfilCollection: UICollectionView!
     
@@ -49,7 +49,7 @@ class ThirdAssignmentVC: UIViewController  {
 }
 
 
-extension ThirdAssignmentVC:UICollectionViewDataSource{
+extension FourthAssignmentCVC:UICollectionViewDataSource{
     // section 개수
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -84,7 +84,7 @@ extension ThirdAssignmentVC:UICollectionViewDataSource{
     
     // collectionview headercell size
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        let width: CGFloat = collectionView.frame.width
+        let width: CGFloat = view.frame.size.width
         let height: CGFloat = 88
         
         // 스크롤 될 때 여기서 size 조정하면 되겠다!!!
@@ -93,19 +93,19 @@ extension ThirdAssignmentVC:UICollectionViewDataSource{
     
 }
 
-extension ThirdAssignmentVC : UICollectionViewDelegate{
+extension FourthAssignmentCVC : UICollectionViewDelegate{
     
     
 }
 
-extension ThirdAssignmentVC : UICollectionViewDelegateFlowLayout{
+extension FourthAssignmentCVC : UICollectionViewDelegateFlowLayout{
     
     // cell 가로 세로
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if indexPath.item > 0 {
             return CGSize(width: (view.frame.size.width/2) , height: 225)
         }else{
-            return CGSize(width: view.frame.size.width , height: 420)
+            return CGSize(width: (view.frame.size.width) , height: 420)
         }
     }
     // cell 위 아래 간격
@@ -125,43 +125,3 @@ extension ThirdAssignmentVC : UICollectionViewDelegateFlowLayout{
 
 
 
-// MARK: 헤더 관련 cell
-class header1CVCell : UICollectionReusableView{
-    static let identifier : String = "header1CVCell"
-}
-
-// MARK: sopt NetWorking 관련 cell
-class ThirdCell1CVCell : UICollectionViewCell{
-    static let identifier : String = "ThirdCell1CVCell"
-    
-}
-
-// MARK: profile 관련 cell
-class ThirdCell2CVCell : UICollectionViewCell{
-    @IBOutlet weak var profile: UIImageView!
-    @IBOutlet weak var nameTx: UILabel!
-    @IBOutlet weak var subtitleTx: UILabel!
-    
-    static let identifier : String  = "ThirdCell2CVCell"
-    
-    
-    func setinformation(image : String, name : String, subtitle: String) {
-        profile.image = UIImage(named: image)
-        nameTx.text = name
-        subtitleTx.text = subtitle
-    }
-}
-
-
-// 데이터 structure
-struct information{
-    let name: String
-    let image : String
-    let subtitle : String
-    
-    init(image:String , name:String, subtitle: String){
-        self.image = image
-        self.name = name
-        self.subtitle = subtitle
-    }
-}

@@ -25,10 +25,12 @@
 		0E610B80254D34CB00EDCD91 /* ThirdSeminarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E610B7F254D34CB00EDCD91 /* ThirdSeminarVC.swift */; };
 		0E610B85254D34F200EDCD91 /* ThirdSeminarStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E610B84254D34F200EDCD91 /* ThirdSeminarStory.storyboard */; };
 		0E610B8D254D4AF000EDCD91 /* tableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E610B8C254D4AF000EDCD91 /* tableVC.swift */; };
-		0EA9055F25567CAB00F35F51 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA9055E25567CAB00F35F51 /* Storyboard.storyboard */; };
 		0EA905652556823A00F35F51 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA905642556823A00F35F51 /* Third.storyboard */; };
 		0EA9056A2556825B00F35F51 /* ThirdAssignmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA905692556825B00F35F51 /* ThirdAssignmentVC.swift */; };
 		0EA9059B255D7B5700F35F51 /* aaaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9059A255D7B5700F35F51 /* aaaVC.swift */; };
+		0EA905A0255E43F400F35F51 /* FourthAssignmentLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9059F255E43F400F35F51 /* FourthAssignmentLoginVC.swift */; };
+		0EA905A5255E440800F35F51 /* FourthAssignmentCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA905A4255E440800F35F51 /* FourthAssignmentCVC.swift */; };
+		0EA905AD255E498700F35F51 /* Fourths.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA905AC255E498700F35F51 /* Fourths.storyboard */; };
 		0EBB2009255643D000DA7BFA /* Fourth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBB2008255643D000DA7BFA /* Fourth.storyboard */; };
 		0EBB200E2556485900DA7BFA /* customTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB200D2556485900DA7BFA /* customTBC.swift */; };
 		0EBB20132556488C00DA7BFA /* purpleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB20122556488C00DA7BFA /* purpleVC.swift */; };
@@ -84,10 +86,12 @@
 		0E610B7F254D34CB00EDCD91 /* ThirdSeminarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThirdSeminarVC.swift; path = ../../../../../../Documents/ThirdSeminarVC.swift; sourceTree = "<group>"; };
 		0E610B84254D34F200EDCD91 /* ThirdSeminarStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ThirdSeminarStory.storyboard; path = ../../../../../../Documents/ThirdSeminarStory.storyboard; sourceTree = "<group>"; };
 		0E610B8C254D4AF000EDCD91 /* tableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableVC.swift; sourceTree = "<group>"; };
-		0EA9055E25567CAB00F35F51 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		0EA905642556823A00F35F51 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		0EA905692556825B00F35F51 /* ThirdAssignmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAssignmentVC.swift; sourceTree = "<group>"; };
 		0EA9059A255D7B5700F35F51 /* aaaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaVC.swift; sourceTree = "<group>"; };
+		0EA9059F255E43F400F35F51 /* FourthAssignmentLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthAssignmentLoginVC.swift; sourceTree = "<group>"; };
+		0EA905A4255E440800F35F51 /* FourthAssignmentCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthAssignmentCVC.swift; sourceTree = "<group>"; };
+		0EA905AC255E498700F35F51 /* Fourths.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fourths.storyboard; sourceTree = "<group>"; };
 		0EBB2008255643D000DA7BFA /* Fourth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fourth.storyboard; sourceTree = "<group>"; };
 		0EBB200D2556485900DA7BFA /* customTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTBC.swift; sourceTree = "<group>"; };
 		0EBB20122556488C00DA7BFA /* purpleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purpleVC.swift; sourceTree = "<group>"; };
@@ -281,7 +285,9 @@
 		0EBB2007255643BD00DA7BFA /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				0EA9055E25567CAB00F35F51 /* Storyboard.storyboard */,
+				0EA9059F255E43F400F35F51 /* FourthAssignmentLoginVC.swift */,
+				0EA905A4255E440800F35F51 /* FourthAssignmentCVC.swift */,
+				0EA905AC255E498700F35F51 /* Fourths.storyboard */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -474,12 +480,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA905AD255E498700F35F51 /* Fourths.storyboard in Resources */,
 				0E610B85254D34F200EDCD91 /* ThirdSeminarStory.storyboard in Resources */,
 				0E008756253186FB004689C7 /* LaunchScreen.storyboard in Resources */,
 				0E610B68254C07D800EDCD91 /* SecondAssignment.storyboard in Resources */,
 				0EBB2009255643D000DA7BFA /* Fourth.storyboard in Resources */,
 				0E008753253186FB004689C7 /* Assets.xcassets in Resources */,
-				0EA9055F25567CAB00F35F51 /* Storyboard.storyboard in Resources */,
 				0EECA36C25381768004B0D9A /* FisrtAssignment.storyboard in Resources */,
 				0EA905652556823A00F35F51 /* Third.storyboard in Resources */,
 				0E008751253186F9004689C7 /* Main.storyboard in Resources */,
@@ -615,6 +621,7 @@
 				0EECA371253817A4004B0D9A /* HomeVC.swift in Sources */,
 				0E610B80254D34CB00EDCD91 /* ThirdSeminarVC.swift in Sources */,
 				0E00874E253186F9004689C7 /* ViewController.swift in Sources */,
+				0EA905A0255E43F400F35F51 /* FourthAssignmentLoginVC.swift in Sources */,
 				0EBB20182556489700DA7BFA /* yellowVC.swift in Sources */,
 				0E00878C25319C53004689C7 /* ExampleSenderVC.swift in Sources */,
 				0E00874A253186F9004689C7 /* AppDelegate.swift in Sources */,
@@ -624,6 +631,7 @@
 				0E00878725319C44004689C7 /* ExampleVC.swift in Sources */,
 				0EBB20132556488C00DA7BFA /* purpleVC.swift in Sources */,
 				0E00877D2531910E004689C7 /* SecondVC.swift in Sources */,
+				0EA905A5255E440800F35F51 /* FourthAssignmentCVC.swift in Sources */,
 				0EA9056A2556825B00F35F51 /* ThirdAssignmentVC.swift in Sources */,
 				0EBB201D25564E2700DA7BFA /* animationVC.swift in Sources */,
 				0EECA383253817EA004B0D9A /* SignUpVC.swift in Sources */,
@@ -807,6 +815,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 966AMBK56G;
 				INFOPLIST_FILE = FirstSeminar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -826,6 +835,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 966AMBK56G;
 				INFOPLIST_FILE = FirstSeminar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gY6-lp-5S8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wax-zW-1a5">
-                                <rect key="frame" x="177" y="539" width="60" height="30"/>
+                                <rect key="frame" x="177" y="483" width="60" height="30"/>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="8Al-7A-jj3"/>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lws-OB-yK4">
-                                <rect key="frame" x="191.5" y="616" width="31" height="30"/>
+                                <rect key="frame" x="191.5" y="560" width="31" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Blue">
                                     <color key="titleColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="왕왕이들 화이팅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLt-YK-7da">
-                                <rect key="frame" x="153" y="424" width="108" height="21"/>
+                                <rect key="frame" x="153" y="368" width="108" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rLt-YK-7da" secondAttribute="height" multiplier="36:7" id="w49-Zu-gGQ"/>
                                 </constraints>
@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKy-Il-fie">
-                                <rect key="frame" x="186" y="684" width="42" height="30"/>
+                                <rect key="frame" x="186" y="628" width="42" height="30"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <state key="normal" title="Green">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -60,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5x6-si-6to">
-                                <rect key="frame" x="184" y="752" width="46" height="30"/>
+                                <rect key="frame" x="184" y="696" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="0gV-jQ-hj0" kind="show" id="rSf-jm-7Uh"/>
@@ -75,7 +75,7 @@
                             <constraint firstItem="rLt-YK-7da" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O9D-N7-cWx"/>
                             <constraint firstItem="cKy-Il-fie" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oro-Fn-p9A"/>
                             <constraint firstItem="5x6-si-6to" firstAttribute="top" secondItem="cKy-Il-fie" secondAttribute="bottom" constant="38" id="aam-dN-Jgo"/>
-                            <constraint firstItem="rLt-YK-7da" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="336" id="evF-Bo-zpq"/>
+                            <constraint firstItem="rLt-YK-7da" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="280" id="evF-Bo-zpq"/>
                             <constraint firstItem="Wax-zW-1a5" firstAttribute="top" secondItem="rLt-YK-7da" secondAttribute="bottom" constant="94" id="ker-ut-ygE"/>
                             <constraint firstItem="5x6-si-6to" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ksr-hY-fMc"/>
                             <constraint firstItem="cKy-Il-fie" firstAttribute="top" secondItem="lws-OB-yK4" secondAttribute="bottom" constant="38" id="qvB-5W-uOB"/>
